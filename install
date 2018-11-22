@@ -1,0 +1,6 @@
+sudo nano /etc/apt/sources.list
+deb http://archive.itimmer.nl/raspbian/moonlight stretch main
+wget http://archive.itimmer.nl/itimmer.gpg
+sudo apt-key add itimmer.gpg
+sudo apt-get update
+sudo apt-get install moonlight-embedded
